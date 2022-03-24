@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#E7FEFF
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- Id ,no label for="" para localizar mais rápido o codígo-->
+    <main>
+        <fieldset>
+            <legend>Texto Poetico e um tipo de carne</legend>
+            <form action="mailto:joyce.emailprofissional@gmail.com" name="" method="post">
+                
+
+                <label for="">Nome</label> <br>
+                <input required type="text" size="50" name="" />
+                <br><br>
+            
+    
+        </fieldset>
+        <!--Radio marcar somente uma opção-->
+
+
+        <p>Qual sua cor preferida</p>
+        <input type="Radio" name="cor">
+        <label for="">yellow</label>
+
+        <input type="radio" name="cor">
+        <label for="">Blue</label>
+
+        <input type="Radio" name="cor">
+        <label for="">white</label>
+
+        <!-- checkbox serve para marcar uma de uma opção-->
+        <p>Quais Estados voce ja visitou</p>
+        <input type="checkbox" id="estado1" name="estado1" value="São Paulo">
+        <label for="">São Paulo</label>
+
+        <input type="checkbox" id="estado2" name="estado2" value="Rio de janeiro">
+        <label for="">Rio Janeiro</label>
+
+        <input type="checkbox" id="estado3" name="estado3" value="Fortaleza">
+        <label for="">Fortaleza</label><Br>
+        <br>
+        <!-- select lista suspensa-->
+
+        <label for="Qual o melhor time"></label>
+        <p>Qual o melhor time?</p>
+        <select name="" id="">
+            <option value="saoPaulo">São Paulo</option>
+            <option value="palmeiras">Palmeiras</option>
+            <option value="corinthians">Corinthians</option>
+            <option value="parisSaintGermain">Saint Germain</option>
+        </select>
+        <br><br>
+
+        <!-- tipo range 2º parte cols:coluna  rows:linha -->
+        <p>Quanto filhos voce tem?</p>
+        0
+        <input type="range" name="" list="valor_01" min="1" max="10">
+        100
+        <datalist id="valor_01">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+
+        </datalist>
+        <br><br>
+
+        <!-- textArea -->
+
+        <p>Deixe seu Comentário!</p>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Deixe Sua experiencia da loja!"></textarea><br>
+        
+        <input type="submit" value="Enviar" />
+        
+    </form>
+
+
+
+        <!-- datalist lista pré definida -->
+
+    </main>
+</body>
+
+</html>
