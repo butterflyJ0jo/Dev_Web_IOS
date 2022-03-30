@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+    
+ background-color: #e6e6fa;
+ color: #191970;
+ font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+ background-color: #191970;
+ color: #e6e6fa;
+ line-height: 200%;
+ font-family: Georgia, "Times New Roman", serif;
+ text-shadow: 3px 3px 5px #cccccc;
+}
+h2 {
+    text-align: center;
+ background-color: #aeaed4;
+ font-family: Georgia, "Times New Roman", serif;
+ text-align: center;
+}
+p {
+
+ font-size: .90em;
+ text-indent: 3em;
+ background-color: royalblue;
+}
+/* font weight é a fonte forte bold */
+ul {
+ font-weight: bold;
+ color: orange;
+}
+footer {
+ color: #333333;
+ font-size: .75em;
+ font-style: italic;
+ font-family: 'Courier New', Courier, monospace;
+}
+/* é para indentificar a opção class do html pata mudar do para essas tags a cor no caso vermelho */
+.cor_texto {
+ color: #C70000;
+ }
+ /* p.fundo para indentificar como na lista uma cor especifica para uma tag */
+p.fundo{
+    background-color: sandybrown;
+}
+
+
