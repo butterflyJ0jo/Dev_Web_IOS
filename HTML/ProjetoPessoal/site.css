@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url(fundo.jpg);
+
+body {
+
+    background-image: url('fundo.jpg');
+    background-repeat:initial;
+    background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+    color: rgb(222, 243, 242);
+    font-size: large;
+    background-color: rgb(42, 156, 133);
+}
+
+h3 {
+    text-align: justify;
+    color: antiquewhite;
+    font-size: larger;
+}
+
+ul,
+li {
+    color: aquamarine;
+    font-size: large;
+}
+
+região {
+    text-align: center;
+    background-color: aquamarine;
+    color: black
+}
+
+.red {
+    text-align: center;
+    color: antiquewhite;
+    font-size:larger
+    
+}
+
+footer {
+    font-style: italic;
+    color: black;
+    text-align: center;
+    text-shadow: bold;
+    background-color: rgb(44, 135, 109);
+}

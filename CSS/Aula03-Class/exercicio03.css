@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Inspiration&display=swap");
 body {
     background-image: url('fundo.avif') ;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: cover;
   background-color: rgb(218, 217, 192);
   color: #193543;
