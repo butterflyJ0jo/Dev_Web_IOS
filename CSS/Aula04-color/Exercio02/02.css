@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body {
+    background-image: url(fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align:left;
+    list-style: inside;
+    list-style-type: decimal;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Ntopo {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(1, 72, 48);
+    background-color: rgb(80, 141, 116);
+}
+
+.titulo {
+    text-align: center;
+    font-family:  'Josefin Sans', sans-serif;
+
+}
+
+.cabeçalho {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+h1 {
+    font-weight: 600;
+    color: aquamarine;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+
+
+}
+
+h4 {
+    font-weight: 600;
+    color: aquamarine;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.lista1 {
+    list-style: inside;
+    list-style-type: decimal;
+    text-align: center;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+
+footer{
+    font-weight:italic;
+}
+
+ table,th,td{
+     border: 2px solid black;
+     border-collapse: collapse;
+     text-align: center;
+    
+ }
+ table{ width:600px;
+    margin: auto;
+    border: 2px solid black;
+     
+ }
+
+ th, td{
+     padding: 3px;
+ }
+  
+ th{
+     background-color: rgb(5, 91, 61);
+     color: rgb(113, 204, 174);
+     font-weight: 600;
+ }
+ td{
+     font-family: 'Roboto Mono', monospace;
+     color: antiquewhite;
+     background-color: rgb(42, 61, 55);
+
+
+ }
