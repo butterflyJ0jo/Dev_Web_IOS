@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
 
 body {
-    background-image: url(fundo1.jpg);
+    background-image: url(fundoaialq1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: antiquewhite;
@@ -64,6 +64,6 @@ h4 {
 }
 
 footer {
-    color: antiquewhite;
+    color: rgb(80, 47, 3);
     text-align: center;
 }

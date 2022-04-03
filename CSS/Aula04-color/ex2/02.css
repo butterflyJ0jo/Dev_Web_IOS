@@ -17,9 +17,11 @@ body {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(1, 72, 48);
-    background-color: rgb(80, 141, 116);
+    background-color:  rgb(34, 34, 80);
 }
-
+.lista1{
+    color: rgb(20, 57, 45);
+}
 .titulo {
     text-align: center;
     font-family:  'Josefin Sans', sans-serif;
@@ -58,9 +60,7 @@ h4 {
     font-size: larger;
 }
 
-footer{
-    font-weight:italic;
-}
+
 
  table,th,td{
      border: 2px solid black;
@@ -87,6 +87,10 @@ footer{
      font-family: 'Roboto Mono', monospace;
      color: antiquewhite;
      background-color: rgb(42, 61, 55);
-
-
  }
+
+ footer{
+    font-weight:italic;
+    background-color: rgb(34, 34, 80);
+    color:aliceblue
+}
