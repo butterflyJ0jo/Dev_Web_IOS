@@ -1,15 +1,75 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 body{
-    background-color:pink;
-    color:aliceblue;
-    background-image: url(fundo21.jpg);
+
+    background-color: pink;
+    color: aliceblue;
+    /* background-image: url(fundo21.jpg); */
     background-repeat: no-repeat;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
 }
- h1{
-     background-color: rgb(55, 55, 115);
-     color: beige;
-     text-align: center;
-     font-family:'Rubik Moonrocks', cursive; ;
- }
+.banner{
+    position: absolute;
+   top: 30%;
+
+    
+}
+.fundoimage{
+    width: 100%; 
+    height: 100%;
+}
+.fundoimage img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+    background-color:#000;
+}
+header{
+    width:100% ;
+    height:100% ;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    background-color: rgb(55, 55, 115);
+    color: beige;
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    position: relative;
+}
+
+img {
+    width: 620px;
+    height: 340px;
+    
+}
+
+figure {
+    width: 620px;
+    padding: 5px;
+    border: 2px solid white;
+    position: relative;
+}
+
+figcaption {
+    text-align: center;
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+    position: relative;
+
+footer {
+    color: blanchedalmond;
+    font-size: .75em;
+    font-style: italic;
+    font-family: 'Rubik Moonrocks', cursive;
+    text-align: center;
+    position: relative;
+}
