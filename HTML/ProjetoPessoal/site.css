@@ -3,14 +3,13 @@
 
 body {
 
-    background-image: url('fundo.jpg');
+    background-color: rgb(17, 89, 65);
     background-repeat:initial;
     background-size:cover;
 }
-
-h1 {
+h1, p {
     text-align: center;
-    
+}
 }
 
 h2 {
@@ -24,10 +23,12 @@ h3 {
     text-align: justify;
     color: antiquewhite;
     font-size: larger;
+    text-align: center;
 }
 
 ul,
 li {
+    text-align: center;
     color: aquamarine;
     font-size: large;
 }
@@ -47,7 +48,7 @@ região {
 
 footer {
     font-style: italic;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     text-shadow: bold;
     background-color: rgb(44, 135, 109);
