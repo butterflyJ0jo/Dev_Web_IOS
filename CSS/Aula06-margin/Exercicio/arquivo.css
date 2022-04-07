@@ -24,7 +24,7 @@ body {
     background-color:#cfbaf0;
     color:#b9fbc0;
     padding: 10px 15px;
-    border: none;
+    border:1px solid royalblue;
     text-decoration:dotted;
     font-weight: bold;
 
@@ -48,6 +48,10 @@ body {
     border-top-style: dashed;
     font-family: 'Rubik Moonrocks', cursive;
 }
+img{
+    border:#fbf8cc 2px solid;
+    border-radius: 15px;
+}
 
 
 
@@ -67,7 +71,7 @@ footer {
     text-align:center;
     font-style: italic;
     color: #582f0e;
-    margin: 2%;
+    margin-top: 2%;
     padding-top:2%;
 
 

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+    background-color:#d8e2dc ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1{
+    color:#fec5bb;
+}
+ h2{
+     color:#e6ccb2;
+ }
+ h3{
+     color:#ddb892;
+ }
+li{
+    color:#b08968;
+}
+footer{
+    color: #7f5539;
+}
+p{
+    color:#ffba08;
+}
