@@ -1,82 +1,111 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-/* * {
 
+* {
     margin: 0;
     padding: 0;
-/* } */
+}
 
-body {
-    background-image: url(../exercicio/1fundo.jpg);
-    background-repeat: no-repeat;
+body { margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+    line-height: 2em;
+    background-color: #7f4f24;
+}
+
+
+#turismo {
+    background-image: url(fundocerto.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+    height: 100vh;
     text-align: center;
-
-
-}
-
-
-header {
-    font-family: 'Beau Rivage', cursive;
+    padding: 0 20px;
     font-size: 50px;
-    text-align: center;
-    color: #ffe8d6;
-    margin: 0.4em;
-    text-align: center;
-}
- header h1{
-     font-size: 1em;
 
-}
-.Resumo2{
-    font-size:1.0em ;
-    color:#d9ed92;
+    }
 
-}
+ #turismo h1 {
+     font-size: 90px;
+     color:white;
+     font-family: 'Beau Rivage', cursive;
+ }
 
-.topicos {
-    font-size: 30px;
+.topicos{ 
+    font-size:0.8em;
     text-align: center;
-    margin: auto;
-    color: #caf0f8;
-    font-family: 'Lobster', cursive;
-    font-weight: bold;
+    color:#e8e8e4;
+    margin-bottom:2px;
+    font-family: 'Beau Rivage', cursive;
 }
+.comida section{
+    font-size: 1.6px;
+    color: white;
+    font-family:  'Beau Rivage', cursive;
+    text-align: center;
+}
+#comida{
+    font-size:20px;
+    text-align: center;
+    margin-top: 2px;
+    font-family:  'Beau Rivage', cursive;
+    color:#e8e8e4;
+    padding:20px ;
+}
+    .bistor{
+        color:#caf0f8;
+    margin-bottom:10px;
+    font-family: 'Beau Rivage', cursive;
+    font-size:1.4em ;
+    margin-top: 10px;
+
+    }
 
 article {
     color: #caf0f8;
     font-family: 'Lobster', cursive;
-    font-size: 18px;
+    font-size: 18px; 
 
 }
 
 ul li {
     float: center;
     list-style-position: inside;
-    color: #d9ed92;
-    margin-top: 1%;
-    font-family: 'Roboto', sans-serif;
+    color: #caf0f8;
+    margin-top: 2%;
+    font-family:  'Beau Rivage', cursive;
     font-weight: bold;
+    font-size:0.5em ;
 }
 
 .botao {
-    border: #fdffb6 1px solid;
+    border: #ffc6ff 1px solid;
     font-size: 18px;
     text-decoration: none;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 20px;
-    color: #fdffb6;
-    margin-top: 10%;
+    color: #ffc6ff;
+    font-family:'Beau Rivage', cursive;
 
 }
+#historia h1 {
 
-.Resumo {
-    color: #d9ed92;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-size: 45px;
+    color:white;
+    font-family: 'Beau Rivage', cursive;
+    margin-bottom: 10px;
 }
+ .texto1{
+     font-size: 1.7em;
+    color: #caf0f8;
+     font-family:'Beau Rivage', cursive;
+ }
+
+  footer p {
+     font-style: italic;
+     color:#d16b6d;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 18px;
+ }
