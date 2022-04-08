@@ -23,19 +23,20 @@ body{
     }
    
      img {
-        width:100% ;
+         width: 36%;
+        box-sizing: border-box;
         
         }
         figcaption {
             text-align: center;
             font-family: Papyrus, fantasy;
-            color: antiquewhite;
+            color:whitesmoke;
     }
  
-    figure {
-        width: 15%;
+    figure img  {
+        
         padding: 5px;
-        border: 5px solid #ffffff;
+        border: 3px solid #ffffff;
  }
  .banner a {
      color:antiquewhite;
