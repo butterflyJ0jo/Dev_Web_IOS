@@ -16,6 +16,9 @@ body {
 
 
 }
+main{
+    padding: 2em;
+}
 
 .img0 {
     border: 3px #757bc8 solid;
