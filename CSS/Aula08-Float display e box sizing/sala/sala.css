@@ -23,14 +23,15 @@ clear:none;
 }
 .img3{
     float:right;
+    border: 6px red solid;
 }
 .div1{
-    border: 1px solid black;
+    border: 5px solid black;
     height: 300px;
     width: 100px;
 }
 .div2{
-    border: 1px solid red;
+    border: 5px solid red;
     height: 300px;
     width: 100px;
     padding: 20px;
