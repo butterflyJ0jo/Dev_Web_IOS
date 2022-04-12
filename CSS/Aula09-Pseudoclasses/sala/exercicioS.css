@@ -1,0 +1,10 @@
+Body{
+    margin:2em;
+    padding: auto;
+    background-image:url(fundo.jpg);
+    
+}
+.fundo{
+    background-color: blue;
+    opacity:30%;
+}
