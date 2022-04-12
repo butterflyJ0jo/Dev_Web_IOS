@@ -42,18 +42,45 @@ p {
     color: #023047;
 }
 
-#filme {
+.filme {
     margin-top: 10x;
     border: 3px white solid;
     box-sizing: border-box;
+    height:400px ;
+    padding: 2em;
 
 }
+.two{
+    float: left;
+}
+ .three{
+     float:right;
+ }
+
 
 .top2 {
     width: 320px;
     border: 4px #757bc8 solid;
+    float: right;
 }
-
+.one{
+    float: none;
+}
+.top3{
+    float:left;
+}
+.sex{
+    float: left;
+}
+.sevem{
+    float:right;
+}
+.eight{
+    float: right;
+}
+.nine{
+    float:left;
+}
 figure {
     border: 4px #757bc8 solid;
     width: 300px; 
@@ -66,7 +93,7 @@ figcaption {
     text-align: center;
 }
 
-}
+
 
 h2 {
     color: #757bc8;

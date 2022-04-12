@@ -1,10 +1,8 @@
 Body{
-    margin:2em;
-    padding: auto;
-    background-image:url(fundo.jpg);
+     margin:2em;
+    padding: 8em; */
+    background-image: url(fundo_edited.jpg);
     
-}
-.fundo{
-    background-color: blue;
-    opacity:30%;
+
+
 }
