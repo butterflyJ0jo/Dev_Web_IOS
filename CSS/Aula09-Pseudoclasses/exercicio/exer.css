@@ -7,67 +7,118 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: #c1c2bc;
-    text-align: center;
     background-color: #533618;
     font-family: 'Philosopher', sans-serif;
+    font-size:20px;
 }
+
 header {
 
     text-align: center;
     padding: 0 20px;
     color: #c1c2bc
 }
-nav{
+
+nav {
     text-decoration: none;
 
 }
-main{
+
+main {
     padding: 2em;
 }
 
 h1 {
-    margin-top: 50px;
+    margin-top: 80px;
+    font-size: 50px;
 }
 
 h2 {
     color: #314a20;
+    font-size:30px;
 }
-ul{
- text-decoration: center;
-}
-p::first-letter {
-    font-size: 200%;
-    color:#314a20;
-    }
-    a:hover {
-        background-color: #015116;
-        }
-        p::selection {
-            background-color:#314a20;
-            color:#c1c2bc;
-        }
-        ::selection{
-            background-color:#533618;
-            color:#c1c2bc;
-            }
-            .btn{
-                border:#015116 2px solid;
-                color:#c1c2bc;
-                text-decoration: none;
-                border-radius: 25px;
-            }
-            .lista li:first-child {
-                
-                color: #015116;
-            }
-    
-            .lista li:nth-child(3) {
-                color:#725436;
-                }
-                .lista li:nth-child(2){
-                    color: #725436;
-                }
 
-            .lista li:last-child {
-                color: #015116;
-            } 
+.lista {
+    text-decoration: center;
+    margin-top: 100px;
+    padding: 2em;
+}
+a:hover {
+    background-color: #015116;
+}
+
+.img1:hover {
+    background-color: #314a20;
+}
+
+.video {
+    float:left;
+}
+.textvideo{
+    text-align:left;
+    margin-top:20px;
+
+}
+p::selection {
+    background-color: #314a20;
+    color: #c1c2bc;
+}
+
+::selection {
+    background-color: #533618;
+    color: #c1c2bc;
+}
+a:hover{
+    color: #533618;
+}
+.p2{
+    margin-top: 3%;
+}
+.p3{
+    margin-top: 3%;
+}
+.Letramaior::first-letter {
+    font-size: 70%;
+    color:#533618;
+}
+
+.btn {
+    border: #015116 2px solid;
+    color: #c1c2bc;
+    text-decoration: none;
+    border-radius: 25px;
+   
+}
+
+.btn2 {
+    border: #015116 2px solid;
+    color: #c1c2bc;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: right;
+}
+
+.lista li:first-child {
+
+    color: #015116;
+}
+
+.lista li:nth-child(3) {
+    color: #725436;
+}
+
+.lista li:nth-child(2) {
+    color: #725436;
+}
+
+.lista li:last-child {
+    color: #015116;
+}
+
+ footer p::before {
+    content: "&copy - ";
+}
+
+p::after {
+    content: " Joyce Monteiro Mendes";
+}
