@@ -125,9 +125,9 @@ a:hover{
 }
 
  footer p::before {
-    content: "&copy - ";
+    content: "\00A9";
 }
 
-p::after {
+footer p::after {
     content: " Joyce Monteiro Mendes";
 }
