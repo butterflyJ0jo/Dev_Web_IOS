@@ -11,12 +11,20 @@ body {
     font-family: 'Philosopher', sans-serif;
     font-size:20px;
 }
+.header1   {
+    text-decoration: none;
+}
 
 header {
 
     text-align: center;
     padding: 0 20px;
     color: #c1c2bc
+}
+.img1:hover{
+    background-color: #015116;
+    color:#015116;
+    opacity: 0.5;
 }
 
 nav {
@@ -78,7 +86,7 @@ a:hover{
     margin-top: 3%;
 }
 .Letramaior::first-letter {
-    font-size: 70%;
+    font-size: 170%;
     color:#533618;
 }
 
@@ -87,6 +95,7 @@ a:hover{
     color: #c1c2bc;
     text-decoration: none;
     border-radius: 25px;
+    padding:5px 10px;
    
 }
 
