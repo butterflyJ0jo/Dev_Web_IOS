@@ -1,91 +1,110 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
-body{
+
+body {
     background-image: url(fundocerto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Square Peg', cursive;
     margin: 5%;
 }
-section{
-    width:100%;
+
+section {
+    width: 100%;
     height: 100vh;
     display: flex;
     /* justify-content: center; */
-    padding:30px;
-   
-}
- .arvoreRosa{
-     flex:1;
-     order:1;
-     align-self: flex-start;
-    
+    padding: 30px;
 
- }
-.arvoreAmarelo{
-    flex:1;
-    order:4;
+}
+
+.arvoreRosa {
+    flex: 1;
+    order: 1;
+    align-self: flex-start;
+
+
+}
+
+.arvoreAmarelo {
+    flex: 1;
+    order: 4;
     align-self: flex-end;
     width: 100%;
     text-align: center;
 }
-.arvoreVerde{
-    flex:2;
-    order:2;
-    align-self:center;
+
+.arvoreVerde {
+    flex: 2;
+    order: 2;
+    align-self: center;
     width: 100%;
 }
-.arvoreAzul{
-    flex:1;
-    order:3;
-    align-self:baseline;
+
+.arvoreAzul {
+    flex: 1;
+    order: 3;
+    align-self: baseline;
 
 }
-h1{
+
+h1 {
     color: whitesmoke;
-    font-size:50px ;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
 
-.img-rosa{
-    border:2px white solid;
-      
+.img-rosa {
+    border: 2px white solid;
+
 }
-.img-amarelo{
-    border:2px white solid;
+
+.img-amarelo {
+    border: 2px white solid;
 }
-.img-verde{
-    border:2px white solid;
+
+.img-verde {
+    border: 2px white solid;
 }
-.img-azul{
-    border:2px white solid;
+
+.img-azul {
+    border: 2px white solid;
+
 }
-p{
-    color:aliceblue;
-    font-size:25px ;
+
+p {
+    color: aliceblue;
+    font-size: 25px;
 }
-.btn{
+
+.btn {
+    background-image: url("arvore-flores.gif");
+    background-size: contain;
+    background-position: center;
     font-weight: bold;
     font-size: 30px;
-    border:2px black solid ;
-    padding:4px;
+    border: 2px black solid;
+    padding: 5px;
     text-decoration: none;
-    color:black;
-    background-color: antiquewhite;
-    border-radius:10px;
+    color: black;
+    border-radius: 10px;
     text-align: center;
-    border-style: dashed;
-    
-} footer p::before {
+    border-style: solid;
+
+}
+
+footer p::before {
     content: "\00A9";
 }
 
 footer p::after {
     content: " Joyce Monteiro Mendes";
-}    
-    footer{ font-weight: bold;
-        font-size:20px ;
-        text-align: center;
+}
 
-    }
+footer {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}

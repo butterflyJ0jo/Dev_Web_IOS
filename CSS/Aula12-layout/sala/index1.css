@@ -1,0 +1,33 @@
+@charset "uft-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: royalblue;
+}
+
+.container {
+   display: grid;
+   background-color:beige;
+   grid-template-columns: repeat(3, 1fr);
+ 
+}
+
+
+.item-1 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+
+.item-2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.item-3 {
+    background-color: forestgreen;
+    width: 200px;
+    height: 200px;
+}
