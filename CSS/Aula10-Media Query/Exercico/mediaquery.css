@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
 body {
     font-family: "Tahoma", sans-serif;
-    background: #a5a58d;
-    color: #fdfcdc;
+    background: #9c6644;
+    color: #fec89a;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size:20px ;
 }
 
 h2 {
@@ -16,36 +17,43 @@ h2 {
 .col{
     width:50% ;
     float: left;
+    padding:8px;
+    box-sizing: border-box;
 }
 .four{
     float: left;
     width: 25%;
+    padding: 8px;
+    box-sizing: border-box;
 }
 .lista{
-    background: #fff;
-    color: #555;
+    background: #ffb4a2;
+    color:black;
     list-style-type: none;
     border: 1px solid #555;
     margin: 0;
-    padding: 10px;
+    padding: 0px;
+    
 }
 .lista2{
-    background: #fff;
-    color: #555;
+    background: #ffb4a2;
+    color: black;
     list-style-type: none;
     border: 1px solid #555;
     margin: 0;
     padding: 10px;
 }
 .lista .descates {
-    background-color: rgb(54, 5, 5);
-    color: rgb(192, 9, 9);
+    background-color:#e5989b;
+    color: white;
     font-size: 25px;
+    font-weight: bold;
 }
 .lista2 .vendidos {
-    background-color: rgb(54, 5, 5);
-    color: rgb(192, 9, 9);
+    background-color:#e5989b;
+    color:white;
     font-size: 25px;
+    font-weight: bold;
 }
 .lista li{
     padding: 20px;
@@ -53,7 +61,16 @@ h2 {
     text-align: center;
 }
 .lista2 li{
-    padding: 20px;
-    border-bottom: 20px solid #eee;
+    padding: 10px;
+    border-bottom: 30px solid #eee;
     text-align: center;
 }
+.btn {
+    background-color: #f9844a;
+    border: none;
+    color:rgb(21, 21, 74);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+   }
