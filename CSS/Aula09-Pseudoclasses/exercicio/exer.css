@@ -1,136 +1,167 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 body {
-    background-image: url(fundocorreto.jpg);
+    background-image: url(fundocorreto.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #c1c2bc;
     background-color: #533618;
     font-family: 'Philosopher', sans-serif;
-    font-size:20px;
-}
-.container{
- padding-left: 10em;
- padding-right:10em ;
- align-items: center;
-}
-.header1   {
-    text-decoration: none;
-    color:#c1c2bc;
-}
-
-.fundo1{
-    background-color:#725436;
-    border:2px #c1c2bc solid ;
-    padding: 10px;
-    /* height: 370px; */
-display: flex;
-flex-direction: column;
-align-items: center;
-/* width:80%; */
-
-
-    
-}
-
-header {
-
+    font-size: 20px;
     text-align: center;
-    padding: 0 20px;
-    color: #c1c2bc
-}
-.img1{
-    float: left;
-    margin-right:10px ;
-}
-.img1:hover{
-    background-color: #015116;
-    color:#015116;
-    opacity: 0.5;
+
 }
 
-nav {
+.header1 {
     text-decoration: none;
-
-}
-
-main {
-    padding: 2em;
-}
-
-h1 {
-    margin-top: 80px;
-    font-size: 50px;
-}
-
-h2 {
-    color: #314a20;
-    font-size:30px;
-}
-
-.lista {
-    text-decoration: center;
-    margin-top: 100px;
-    padding: 2em;
-}
-a:hover {
-    background-color: #015116;
+    font-size: 20px;
+    color:#533618;
+    border: #314a20 3px solid;
+    background-color: #c1c2bc;
+    font-weight: bold;
+    padding: 0.4em;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    border-radius: 20px;
 }
 
 .img1:hover {
-    background-color: #314a20;
-}
-
-.video {
-    float:left;
-}
-.textvideo{
-    text-align:left;
-    /* margin-top:20px; */
+    background-color: #015116;
+    color: #015116;
+    opacity: 0.5;
 
 }
-p::selection {
-    background-color: #314a20;
-    color: #c1c2bc;
+
+.icone {
+    margin-top: 30px;
 }
 
-::selection {
+.historia {
+    border: #c1c2bc 3px solid;
+    border-radius: 20px;
     background-color: #533618;
-    color: #c1c2bc;
+    padding: 2em;
+    /* display: flex; */
+    margin-top: 30px;
+    align-items: center;
+    opacity: 92%;
+    margin-left: 10em;
+    margin-right: 10em;
 }
-a:hover{
+
+
+.histo1 {
+    float: left;
+    border: #314a20 3px solid;
+    margin-bottom: 80px;
+    flex-direction: column;
+
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 100px;
     color: #533618;
+    font-weight: bold;
 }
-.p2{
-    margin-top: 3%;
+
+h2 {
+    color: #015116;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+
 }
-.p3{
-    margin-top: 3%;
+
+a:hover {
+    background-color: #015116;
+
 }
+
 .Letramaior::first-letter {
     font-size: 170%;
-    color:#533618;
-}
+    color:#015116;
 
-.btn {
-    border: #015116 2px solid;
-    color: #c1c2bc;
-    text-decoration: none;
-    border-radius: 25px;
-    padding:5px 10px;
-   
-}
+    }
+    .btn {
+        border: #015116 2px solid;
+        background-color: #c1c2bc;
+        color: #533618;
+        text-decoration: none;
+        border-radius: 25px;
+        padding: 5px 10px;
+    
+    }
+    
+    .btn2 {
+        border: #015116 2px solid;
+        color: #533618;
+        background-color: #c1c2bc;
+        text-decoration: none;
+        border-radius: 25px;
+        text-align: right;
+    }
+    .curiosidade {
+        border: #c1c2bc 2px solid;
+        border-radius: 20px;
+        background-color: #533618;
+        background-image: url(gif2.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1em;
+        /* display: flex; */
+        margin-top: 10px;
+        align-items: center;
+        opacity: 92%;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
 
-.btn2 {
-    border: #015116 2px solid;
-    color: #c1c2bc;
-    text-decoration: none;
-    border-radius: 25px;
-    text-align: right;
-}
+    .curio1 {
+        float: left;
+        border: #314a20 2px solid;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
 
+    .noticias {
+        border: #c1c2bc 2px solid;
+        border-radius: 20px;
+        background-color: #533618;
+        padding: 2em;
+        /* display: flex; */
+        margin-top: 10px;
+        align-items: center;
+        opacity: 92%;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+
+    .p1 {
+        float: left;
+        border: #314a20 3px solid;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .p2 {
+        float: right;
+        border: #314a20 3px solid;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+
+    .p3 {
+        float: left;
+        border: #314a20 3px solid;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+    
 .lista li:first-child {
 
     color: #015116;
@@ -148,13 +179,23 @@ a:hover{
     color: #015116;
 }
 
- footer p::before {
+footer p::before {
     content: "\00A9";
 }
 
 footer p::after {
     content: " Joyce Monteiro Mendes";
-}    
-footer{
-    text-align: center;
-} 
+}
+
+    footer {
+        border: #c1c2bc 2px solid;
+        border-radius: 20px;
+        background-color: #533618;
+        padding: 0.3em;
+        /* display: flex; */
+        margin-top: 10px;
+        align-items: center;
+        opacity: 92%;
+        margin-left: 10em;
+        margin-right: 10em;
+    }
