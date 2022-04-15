@@ -11,9 +11,28 @@ body {
     font-family: 'Philosopher', sans-serif;
     font-size:20px;
 }
+.container{
+ padding-left: 10em;
+ padding-right:10em ;
+ align-items: center;
+}
 .header1   {
     text-decoration: none;
     color:#c1c2bc;
+}
+
+.fundo1{
+    background-color:#725436;
+    border:2px #c1c2bc solid ;
+    padding: 10px;
+    /* height: 370px; */
+display: flex;
+flex-direction: column;
+align-items: center;
+/* width:80%; */
+
+
+    
 }
 
 header {
@@ -21,6 +40,10 @@ header {
     text-align: center;
     padding: 0 20px;
     color: #c1c2bc
+}
+.img1{
+    float: left;
+    margin-right:10px ;
 }
 .img1:hover{
     background-color: #015116;
@@ -65,7 +88,7 @@ a:hover {
 }
 .textvideo{
     text-align:left;
-    margin-top:20px;
+    /* margin-top:20px; */
 
 }
 p::selection {
@@ -131,4 +154,7 @@ a:hover{
 
 footer p::after {
     content: " Joyce Monteiro Mendes";
-}     
+}    
+footer{
+    text-align: center;
+} 
