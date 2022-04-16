@@ -5,7 +5,8 @@
 
 body{
     background-image: url(fundo2.jpg);
-    margin: 0;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-size: 1.4em;

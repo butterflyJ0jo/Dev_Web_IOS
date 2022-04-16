@@ -18,7 +18,7 @@ body {
 .header1 {
     text-decoration: none;
     font-size: 20px;
-    color:#533618;
+    color: #533618;
     border: #314a20 3px solid;
     background-color: #c1c2bc;
     font-weight: bold;
@@ -32,6 +32,12 @@ body {
     background-color: #015116;
     color: #015116;
     opacity: 0.5;
+
+}
+
+img:hover {
+    background-color: #314a20;
+    color: #015116;
 
 }
 
@@ -84,99 +90,100 @@ a:hover {
 
 .Letramaior::first-letter {
     font-size: 170%;
-    color:#015116;
+    color: #015116;
 
-    }
-    .btn {
-        border: #015116 2px solid;
-        background-color: #c1c2bc;
-        color: #533618;
-        text-decoration: none;
-        border-radius: 25px;
-        padding: 5px 10px;
-    
-    }
-    
-    .btn2 {
-        border: #015116 2px solid;
-        color: #533618;
-        background-color: #c1c2bc;
-        text-decoration: none;
-        border-radius: 25px;
-        text-align: right;
-    }
-    .curiosidade {
-        border: #c1c2bc 2px solid;
-        border-radius: 20px;
-        background-color: #533618;
-        background-image: url(gif2.gif);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 1em;
-        /* display: flex; */
-        margin-top: 10px;
-        align-items: center;
-        opacity: 92%;
-        margin-left: 10em;
-        margin-right: 10em;
-    }
+}
 
-    .curio1 {
-        float: left;
-        border: #314a20 2px solid;
-        margin-bottom: 80px;
-        flex-direction: column;
-    }
+.btn {
+    border: #015116 2px solid;
+    background-color: #c1c2bc;
+    color: #533618;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 5px 10px;
 
-    .noticias {
-        border: #c1c2bc 2px solid;
-        border-radius: 20px;
-        background-color: #533618;
-        padding: 2em;
-        /* display: flex; */
-        margin-top: 10px;
-        align-items: center;
-        opacity: 92%;
-        margin-left: 10em;
-        margin-right: 10em;
-    }
+}
 
-    .p1 {
-        float: left;
-        border: #314a20 3px solid;
-        margin-bottom: 80px;
-        flex-direction: column;
-    }
+.btn2 {
+    border: #015116 2px solid;
+    color: #533618;
+    background-color: #c1c2bc;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: right;
+}
 
-    .p2 {
-        float: right;
-        border: #314a20 3px solid;
-        margin-bottom: 80px;
-        flex-direction: column;
-    }
+.curiosidade {
+    border: #c1c2bc 2px solid;
+    border-radius: 20px;
+    background-color: #533618;
+    font-weight: bold;
+    background-image: url(gif2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    /* display: flex; */
+    margin-top: 10px;
+    align-items: center;
+    opacity: 92%;
+    margin-left: 10em;
+    margin-right: 10em;
+}
 
-    .p3 {
-        float: left;
-        border: #314a20 3px solid;
-        margin-bottom: 80px;
-        flex-direction: column;
-    }
-    
-.lista li:first-child {
+.curio1 {
+    float: left;
+    border: #314a20 3px solid;
+    margin-bottom: 80px;
+    flex-direction: column;
+}
 
+.noticias {
+    border: #c1c2bc 2px solid;
+    border-radius: 20px;
+    background-color: #533618;
+    padding: 2em;
+    /* display: flex; */
+    margin-top: 10px;
+    align-items: center;
+    opacity: 92%;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.p1 {
+    float: left;
+    border: #314a20 3px solid;
+    margin-bottom: 80px;
+    flex-direction: column;
+}
+
+p::selection {
+    color: #c1c2bc;
+    background-color: #015116;
+}
+
+h1::selection {
+    background-color: #c1c2bc;
+    color: #314a20;
+}
+
+h2::selection {
+    background-color: #c1c2bc;
     color: #015116;
 }
 
-.lista li:nth-child(3) {
-    color: #725436;
+.p2 {
+    float: right;
+    border: #314a20 3px solid;
+    margin-bottom: 80px;
+    flex-direction: column;
 }
 
-.lista li:nth-child(2) {
-    color: #725436;
-}
-
-.lista li:last-child {
-    color: #015116;
+.p3 {
+    float: left;
+    border: #314a20 3px solid;
+    margin-bottom: 80px;
+    flex-direction: column;
 }
 
 footer p::before {
@@ -187,15 +194,15 @@ footer p::after {
     content: " Joyce Monteiro Mendes";
 }
 
-    footer {
-        border: #c1c2bc 2px solid;
-        border-radius: 20px;
-        background-color: #533618;
-        padding: 0.3em;
-        /* display: flex; */
-        margin-top: 10px;
-        align-items: center;
-        opacity: 92%;
-        margin-left: 10em;
-        margin-right: 10em;
-    }
+footer {
+    border: #c1c2bc 2px solid;
+    border-radius: 20px;
+    background-color: #533618;
+    padding: 0.3em;
+    /* display: flex; */
+    margin-top: 10px;
+    align-items: center;
+    opacity: 92%;
+    margin-left: 10em;
+    margin-right: 10em;
+}

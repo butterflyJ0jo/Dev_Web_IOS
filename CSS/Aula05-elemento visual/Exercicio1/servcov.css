@@ -5,51 +5,61 @@
 
 body{
     background-image: url(fundo2.jpg);
-   margin: 0;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-weight: bold;
+    /* width: 100%; */
     font-family: 'Raleway', sans-serif;
     font-size: 1.4em;
     color: antiquewhite;
     background-repeat: no-repeat;
  }
-    h1{
-        background-color:rgb(3, 92, 62);
-        color: aliceblue;
-        font-family: 'Rubik Moonrocks', cursive;
-        line-height: 10%;
-        text-align: center;
-        padding: 1em;
-        margin: 0;
-    }
-   
-     img {
-         width: 36%;
-        box-sizing: border-box;
-        
-        }
-        figcaption {
-            text-align: center;
-            font-family: Papyrus, fantasy;
-            color:whitesmoke;
-    }
- 
-    figure img  {
-        
-        padding: 5px;
-        border: 3px solid #ffffff;
- }
- .banner a {
-     color:antiquewhite;
-     line-height: 10%;
-
- }
- footer{
-     text-align: center;
- }
-
-
-.fileira{
-    display: flex;
-    justify-content:space-around;
-
+ h1{
+    background-color:rgb(3, 92, 62);
+    color: aliceblue;
+    font-family: 'Rubik Moonrocks', cursive;
+    line-height: 40%;
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+    
 }
+figure{
+    border: 3px yellow solid;
+    width: 100px;
+    
+    padding: 2px;
+}
+.banner{
+    color:yellow;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: yellow 2px solid;
+}
+ .fileira{
+     border: 3px yellowgreen solid;
+     border-radius:20px ;
+     opacity:72%;
+     /* margin-top:20px ;
+     margin-left: 20px; */
+     margin-right: 20px;
+     box-sizing: border-box;
+
+     }
+     .file1{
+         border:2px solid black ;
+         border-radius:20px;
+         /* margin-left:260px ;
+         margin-right: 260px; */
+         box-sizing: border-box;
+
+         }
+         .mi1{
+             float: left;
+         }
+         
+   
+
+ 
