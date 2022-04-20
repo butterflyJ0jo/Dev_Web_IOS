@@ -12,7 +12,7 @@ body {
    grid-template-columns: repeat(3, 1fr);
  
 }
- /* menu para cima: */
+ /*            menu para cima: */
 /* #menu{
     display: flex;
     justify-content: space-between;
