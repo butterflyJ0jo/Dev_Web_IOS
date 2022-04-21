@@ -38,6 +38,7 @@ body {
     font-size: 1.5em;
     font-weight: 600;
     text-decoration: none;
+<<<<<<< HEAD
     color: rgb(3, 3, 60);
 }
 
@@ -76,3 +77,13 @@ img {
     flex-wrap: wrap;
 }
 
+=======
+    color:rgb(3, 3, 60);
+} 
+.container{
+    display: grid;
+    grid-template-columns:2;
+    grid-template-rows: 3;
+
+}
+>>>>>>> 9f3f78055a1e3334f5be3e54f60b54d5c0c79617
