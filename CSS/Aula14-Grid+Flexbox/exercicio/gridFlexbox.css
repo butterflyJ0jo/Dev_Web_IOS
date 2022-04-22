@@ -39,7 +39,7 @@ color: rgba(0, 0, 0, 0.258);
     margin: auto;
    margin-top: 20px;
    max-width: 1000px;
-   background-color: white;
+   background-color: bisque;
    margin-bottom: 20px;
    box-shadow:0 0px 10px rgba(0, 0, 0, 0.128);
    
@@ -47,6 +47,7 @@ color: rgba(0, 0, 0, 0.258);
 .blocos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     background-color:whitesmoke;
     padding: 10px;
     margin-bottom: 10px;
@@ -58,10 +59,14 @@ color: rgba(0, 0, 0, 0.258);
 }
 
 .blocos1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     background-color:whitesmoke;
     padding: 10px;
     margin-bottom: 10px;
     grid-template-columns: repeat(3,1fr);
+    justify-items: center;
     
 }
 .blocos:nth-child(even) img{
@@ -70,7 +75,7 @@ color: rgba(0, 0, 0, 0.258);
 }
 main figure img{
     max-width: 100%;
-    border: 4px black solid;
+    border: 5px black solid;
 }
 p{
     font-family: 'EB Garamond', serif;
