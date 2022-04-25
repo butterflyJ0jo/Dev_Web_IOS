@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(5, 5, 61);
 }
 
@@ -13,96 +15,104 @@ body{
 header {
     padding: 10px;
     width: 100%;
-    box-shadow:0 3px 10px rgba(0, 0, 0, 0.128);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.128);
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
- header nav a {
-     margin-left:30px ;
-     text-decoration: none;
-     color:black;
-     font-size: 1.7rem;
+header nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
 }
+
 p span {
     color: #b50d10;
 }
 
 a:hover {
-color: rgba(0, 0, 0, 0.258);
+    color: rgba(0, 0, 0, 0.258);
 }
 
 /* Main */
-.container{
+.container {
     margin: auto;
-   margin-top: 20px;
-   max-width: 1000px;
-   background-color: rgba(0, 0, 255, 0.208);
-   margin-bottom: 20px;
-   box-shadow:0 0px 10px rgba(0, 0, 0, 0.128);
-   
+    margin-top: 20px;
+    max-width: 1000px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.128);
+
 }
-.blocos{
+
+.blocos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     padding: 10px;
     margin-bottom: 10px;
 
 }
-  
+
 .blocos:nth-child(even) figure {
     order: 2;
 }
 
-.blocos1{
+.blocos1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     padding: 10px;
     margin-bottom: 10px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    
+
 }
-.blocos:nth-child(even) img{
-   display: block;
+
+.blocos:nth-child(even) img {
+    display: block;
     margin-left: auto;
 }
-main figure img{
+
+main figure img {
     max-width: 100%;
     border: 5px black solid;
 }
-p{
+
+p {
     font-family: 'EB Garamond', serif;
     font-size: 25px;
 
 }
-.fundo{
-    grid-template-areas: "area1 area2" ;
-    grid-template-rows: repeat(1,1fr);
-    grid-template-columns: repeat(2,1fr);
+
+.fundo {
+    grid-template-areas: "area1 area2";
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
 }
-.fundo:nth-child(1){
+
+.fundo:nth-child(1) {
     grid-area: "area1";
- 
+
 }
 
-.fundo:nth-child(2){
-grid-area: "area2";
+.fundo:nth-child(2) {
+    grid-area: "area2";
 }
 
-.bloco3{
-    background-color:whitesmoke;
+.bloco3 {
+    background-color: whitesmoke;
     padding: 10px;
     margin-bottom: 10px;
     justify-content: center;
 }
+
 footer p::before {
     content: "\00A9";
     text-align: center;
@@ -112,7 +122,8 @@ footer p::after {
     content: " Joyce Monteiro Mendes";
     text-align: center;
 }
-footer{
+
+footer {
     color: white;
     font-family: 'EB Garamond', serif;
     text-align: center;
