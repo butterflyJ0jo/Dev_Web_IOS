@@ -1,0 +1,1 @@
+alert("Joyce está perdida");
