@@ -1,0 +1,30 @@
+ Respostas :
+ 
+ Exercicio (1)
+
+1: Informe o salário mensal atual:
+ 2 salario
+
+1 Informe o percentual de reajuste salarial
+
+2 reajuste
+
+desconto < - (reajuste*salario)/100
+
+novoSalario < - (salario - desconto)
+
+escreval("Novo salário:", novoSalario," com ", reajuste, "13%")
+
+ Exercicio (2)
+
+ 9 , 8, 7, 6
+
+ M.A = 8+7
+       ____
+        2
+
+   M.A 15
+       ____
+         2
+
+         M.A 7,5
